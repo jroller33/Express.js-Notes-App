@@ -1,5 +1,6 @@
 const notes = require('express').Router();
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4 } = require('uuid'); // not sure if I'll need this
+
 const {
   readFromFile,
   readAndAppend,
