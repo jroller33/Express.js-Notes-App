@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const api = require('./routes/index.js');
 
+// you don't ctrl the port on a deployed app
 const PORT = process.env.PORT || 3001;
 
 const app = express();
@@ -9,9 +10,8 @@ const app = express();
 // might need these later
 // app.use(express.json());
 // app.use(express.urlencoded({ extended: true }));
-// app.use('/api', api);
 
-
+app.use('/api', api);
 app.use(express.static('public'));
 
 // GET route for landing page
