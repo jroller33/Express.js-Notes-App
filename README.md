@@ -1,14 +1,21 @@
   # Express.js Note Taking App
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  🚧This app is under development🚧, but will be deployed in a few days (it's due 8/11/22). Check back soon 👍
+  🚧This app is under development🚧, but will be deployed in a few days.<br/>
+  ```
+  CURRENTLY FINSIHED:
+  front end (html, css, frontend js)
   
-/*
-User Story
+  some of the backend js is done.
+  *** need to finish /routes/notes.js and start connecting front and back
+  start testing routes w insomnia
+  have something deployed by tues
+  due thurs
+```
 
-AS A small business owner<br/>
-I WANT to be able to write and save notes<br/>
-SO THAT I can organize my thoughts and keep track of tasks I need to complete<br/>
+
+
+
 
 Acceptance Criteria
 
@@ -25,7 +32,7 @@ WHEN I click on an existing note in the list in the left-hand column<br/>
 THEN that note appears in the right-hand column<br/>
 WHEN I click on the Write icon in the navigation at the top of the page<br/>
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column<br/>
-*/
+
 
 
   ## Table of Contents

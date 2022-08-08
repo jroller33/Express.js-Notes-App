@@ -20,11 +20,12 @@ app.get('/', (req, res) =>
 );
 
 // GET route for notes page
-app.get('/feedback', (req, res) =>
+app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-// wildcard route to direct users to 404 page. should ALWAYS be below ALL other routes.
+// wildcard route to direct users to 404 pg
+// SHOULD ALWAYS BE BELOW ALL OTHER ROUTES!!!
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, 'public/404.html'))
 );
