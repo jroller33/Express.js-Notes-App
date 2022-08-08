@@ -1,7 +1,7 @@
   # Express.js Note Taking App
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  This app is under development🚧, but will be deployed in a few days (it's due 8/11/22). Check back soon 👍
+  🚧This app is under development🚧, but will be deployed in a few days (it's due 8/11/22). Check back soon 👍
   
 /*
 User Story
