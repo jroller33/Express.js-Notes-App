@@ -4,8 +4,8 @@
   🚧This app is under development🚧, but will be deployed in a few days.<br/>
   ```
   CURRENTLY FINSIHED:
-  front end (html, css, frontend js)
-  
+  some of the front end (html, css, frontend js)
+  notes.html needs work
   some of the backend js is done.
   *** need to finish /routes/notes.js and start connecting front and back
   start testing routes w insomnia
