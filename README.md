@@ -11,15 +11,13 @@
   all server.js
   GET /api/notes 
   
-  POST /api/notes is writing noteId but not noteTitle or noteText
-  
 
   to do:
-  finish /routes/notes.js
-  start testing routes with insomnia
+  POST /api/notes is writing noteId but not noteTitle or noteText
+  connect backend js --> frontend js --> html
+  finish testing routes with insomnia
+  
   UUID IS USED FOR NOTE IDS
-  notes.html needs work
-  landing.js???
   make sure js that's dynamically changing html is working w notes.html
   is separate middleware (in a module) needed? 
   connect everything
