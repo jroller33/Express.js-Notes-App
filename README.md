@@ -4,13 +4,14 @@
   🚧This app is under development🚧<br/>
   ```
   finished:
-  most of the front end (html, css, frontend js)
-  some of the backend js is done.
+  html, css, frontend js - except notes.html
+  some of the backend js
 
   to do:
   finish /routes/notes.js
   start testing routes with insomnia
   notes.html needs work
+  make sure js that's dynamically changing html is working
   connect everything
   have something deployed by tues/wed
   due sat
