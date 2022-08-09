@@ -1,21 +1,20 @@
   # Express.js Note Taking App
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  🚧This app is under development🚧, but will be deployed in a few days.<br/>
+  🚧This app is under development🚧<br/>
   ```
-  CURRENTLY FINSIHED:
-  some of the front end (html, css, frontend js)
-  notes.html needs work
+  finished:
+  most of the front end (html, css, frontend js)
   some of the backend js is done.
-  *** need to finish /routes/notes.js and start connecting front and back
-  start testing routes w insomnia
-  have something deployed by tues
-  due thurs
+
+  to do:
+  finish /routes/notes.js
+  start testing routes with insomnia
+  notes.html needs work
+  connect everything
+  have something deployed by tues/wed
+  due sat
 ```
-
-
-
-
 
 Acceptance Criteria
 
