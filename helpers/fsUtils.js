@@ -1,6 +1,4 @@
-// not sure if i'm going to need all of this
 // used for reading/writing JSON objs in ./db/
-
 
 const fs = require('fs');
 const util = require('util');
