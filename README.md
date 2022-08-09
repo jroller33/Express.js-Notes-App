@@ -7,6 +7,13 @@
   html, css, frontend js - except notes.html
   some of the backend js
 
+  API routes working:
+  all server.js
+  GET /api/notes 
+  
+  POST /api/notes is writing noteId but not noteTitle or noteText
+  
+
   to do:
   finish /routes/notes.js
   start testing routes with insomnia
