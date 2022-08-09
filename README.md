@@ -13,6 +13,7 @@
   UUID IS USED FOR NOTE IDS
   notes.html needs work
   make sure js that's dynamically changing html is working w notes.html
+  is separate middleware (in a module) needed? 
   connect everything
   have something deployed by tues/wed
   due sat

@@ -1,6 +1,4 @@
-//          mostly done
-
-const express = require('express');
+const express = require('express');//          mostly done
 const path = require('path');
 const api = require('./routes/index.js');
 
@@ -9,9 +7,9 @@ const PORT = process.env.PORT || 3001;
 
 const app = express();
 
-// might need these later
-// app.use(express.json());
-// app.use(express.urlencoded({ extended: true }));
+// these are for UUID
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.use('/api', api);
 app.use(express.static('public'));
