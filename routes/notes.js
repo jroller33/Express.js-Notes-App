@@ -44,7 +44,6 @@ notes.delete('/:note_id', (req, res) => {
     });
 });
 
-
 // POST route for new note
 notes.post('/', (req, res) => {
   console.log(req.body);
@@ -64,6 +63,5 @@ notes.post('/', (req, res) => {
     res.error('Error in adding note');
   }
 });
-
 
 module.exports = notes;
