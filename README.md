@@ -11,7 +11,8 @@
   finish /routes/notes.js
   start testing routes with insomnia
   notes.html needs work
-  make sure js that's dynamically changing html is working
+  make sure js that's dynamically changing html is working w notes.html
+  is uuid needed?
   connect everything
   have something deployed by tues/wed
   due sat
