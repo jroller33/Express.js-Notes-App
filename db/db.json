@@ -1,12 +1,12 @@
 [
     {
-        "noteTitle": "aspefnawosi",
-        "noteText": "aslk nfglskf skfask",
-        "note_id": "ca0616fa-f603-4d85-a9c6-fa62c73a9bf9"
+        "title": "Title",
+        "text": "text",
+        "id": "28f46520-0a11-4d20-ac87-f40011b6c4cc"
     },
     {
-        "noteTitle": "Title 1",
-        "noteText": "Text 1",
-        "note_id": "b657e22f-bb3b-4912-b41b-9273e4e29233"
+        "title": "asdflkasdfas",
+        "text": "asadfasdfasdf",
+        "id": "43f5b56c-ec7b-41c2-9436-521dbfc24ebc"
     }
 ]

@@ -1,7 +1,7 @@
   # Express.js Note Taking App
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  🚧This app is under development🚧<br/>
+  ### 🚧This app is under development🚧<br/>
   ```
   finished:
   html, css, frontend js - except notes.html
