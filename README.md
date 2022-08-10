@@ -63,7 +63,7 @@
   You can fork the repo at https://github.com/jroller33/Express.js-Note-Taker
   
   ## Tests
-  Using [Insomnia](https://insomnia.rest/) for API testing, but there won't be tests for the classes in this project like we normally do.
+  Using [Insomnia](https://insomnia.rest/) for API testing.
 
   ## License
   This project is licensed under the MIT License. <br/>

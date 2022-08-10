@@ -1,4 +1,4 @@
-//                   mostly done
+//                   DONE
 
 const express = require('express');
 const path = require('path');
@@ -16,17 +16,17 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
 app.use(express.static('public'));
 
-// GET route for landing page
+// GET route for landing page                             WORKS
 app.get('/', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
-// GET route for notes page
+// GET route for notes page                               WORKS
 app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-// wildcard route to direct users to 404 pg
+// wildcard route to direct users to 404 pg               WORKS
 // SHOULD ALWAYS BE BELOW ALL OTHER ROUTES!!!
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, 'public/404.html'))
