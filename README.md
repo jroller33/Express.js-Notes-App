@@ -1,46 +1,7 @@
   # Express.js Note Taking App
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  ### 🚧This app is under development🚧<br/>
-  ```
-  finished:
-  html, css, frontend js - except notes.html
-  some of the backend js
-
-  API routes working:
-  all server.js
-  GET /api/notes 
   
-
-  to do:
-  POST /api/notes is writing noteId but not noteTitle or noteText
-  connect backend js --> frontend js --> html
-  finish testing routes with insomnia
-  
-  UUID IS USED FOR NOTE IDS
-  make sure js that's dynamically changing html is working w notes.html
-  is separate middleware (in a module) needed? 
-  connect everything
-  have something deployed by tues/wed
-  due sat
-```
-
-  Acceptance Criteria
-
-  GIVEN a note-taking application<br/>
-  WHEN I open the Note Taker<br/>
-  THEN I am presented with a landing page with a link to a notes page<br/>
-  WHEN I click on the link to the notes page<br/>
-  THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column<br/>
-  WHEN I enter a new note title and the note’s text<br/>
-  THEN a Save icon appears in the navigation at the top of the page<br/>
-  WHEN I click on the Save icon<br/>
-  THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes<br/>
-  WHEN I click on an existing note in the list in the left-hand column<br/>
-  THEN that note appears in the right-hand column<br/>
-  WHEN I click on the Write icon in the navigation at the top of the page<br/>
-  THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column<br/>
-
 
 
   ## Table of Contents
