@@ -5,9 +5,8 @@
         "note_id": "ca0616fa-f603-4d85-a9c6-fa62c73a9bf9"
     },
     {
+        "noteTitle": "Title 1",
+        "noteText": "Text 1",
         "note_id": "b657e22f-bb3b-4912-b41b-9273e4e29233"
-    },
-    {
-        "note_id": "b8f71e73-a005-4457-9aea-7609a7fd4e67"
     }
 ]
