@@ -1,4 +1,4 @@
-# Express.js Notes App
+# Express.js Note Taker
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ## Description
 This is a deployed app that allows you to read, edit, save and delete notes. It uses Express.js, REST API, npm, UUID, bootstrap, HTML, CSS, and javascript. 
@@ -11,11 +11,12 @@ This is a deployed app that allows you to read, edit, save and delete notes. It 
 - ✅ GET /api/notes - read db.json and return all saved notes as JSON 
 - ✅ GET /api/notes/:id - read db.json and return specific saved note 
 - ✅ POST /api/notes - receive new note to save on the request body, add to db.json, and return the new note to the client. 
-- ✅ DELETE /api/notes/:id - receives a query parameter w the id of a note to delete. 1st read all notes from db.json, remove the note with the given id property, and rewrite notes to db.json 
+- ✅ DELETE /api/notes/:id - receives a query parameter with the id of a note to delete. First read all notes from db.json, remove the note with the given id property, and rewrite notes to db.json 
 
 ## Table of Contents
 - [Deployed Link](#deployed-link)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Contribution](#contribution)
 - [Tests](#tests)
 - [License](#license)
@@ -25,8 +26,6 @@ This is a deployed app that allows you to read, edit, save and delete notes. It 
 
 https://arcane-thicket-35541.herokuapp.com/
 
-### ⚠️Note about Heroku:⚠️
-If you experience a 5-10 second lag after clicking the link, it is because I'm using the free version of [Heroku](https://www.heroku.com/about). The server for an app on Heroku isn't listening at all times, because Heroku kills it after ~10 minutes if it doesn't receive a request. So when you click the link, the lag is from Heroku spinning-up the server so that it can receive your request and respond.<br/>
 
 ## Usage
 
@@ -40,11 +39,18 @@ If you experience a 5-10 second lag after clicking the link, it is because I'm u
 8. Click the '+' button in the top-right corner to write a new note.
 9. To delete a saved note, click the red delete button next to the note.
 
+## Screenshots
+### Landing Page:
+![Landing Page](./screenshots/landingScreenshot.png)
+### Notes Page:
+![Notes Page](./screenshots/notesScreenshot.png)
+
+
 ## Contribution
-You can fork the repo at https://github.com/jroller33/Express.js-Notes-App
+You can contribute at https://github.com/jroller33/Express.js-Notes-App
 
 ## Tests
-Used [Insomnia](https://insomnia.rest/) for API testing.
+I used [Insomnia](https://insomnia.rest/) for API testing.
 
 ## License
 This project is licensed under the MIT License. <br/>

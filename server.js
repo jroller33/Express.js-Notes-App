@@ -14,17 +14,17 @@ app.use(express.urlencoded({ extended: false }));   // true- more accurate but s
 app.use('/api', api);
 app.use(express.static('public'));    // 'public' folder
 
-// GET route for notes page                               WORKS
+// GET route for notes page                               
 app.get('/notes', (req, res) =>
 res.sendFile(path.join(__dirname, './public/notes.html'))
 );
 
-// GET route for landing page                             WORKS
+// GET route for landing page                             
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, './public/index.html'))
 );
 
-// using '*' for GET landing page. probably won't use this 404 page
+// optional 404 page
 // app.get('*', (req, res) =>
 //   res.sendFile(path.join(__dirname, 'public/404.html'))
 // );
