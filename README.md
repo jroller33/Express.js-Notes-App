@@ -1,7 +1,7 @@
-# Express.js Note Taker
+# Express.js Notes App
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ## Description
-This is a deployed app that allows you to read, edit, save and delete notes. It uses Express.js, REST API, npm, UUID, bootstrap, HTML, CSS, and javascript. 
+This is a deployed app that allows you to create, read, update and delete notes in a database. It uses node.js, Express.js, REST API, npm, UUID, bootstrap, HTML, CSS, and javascript. 
 
 ### HTML routes: 
 - ✅ GET /notes - returns /public/notes.html   
@@ -23,8 +23,7 @@ This is a deployed app that allows you to read, edit, save and delete notes. It 
 - [Contact](#contact)
 
 ## Deployed Link
-
-https://arcane-thicket-35541.herokuapp.com/
+[Express.js Notes App](https://arcane-thicket-35541.herokuapp.com/)
 
 
 ## Usage
@@ -47,15 +46,14 @@ https://arcane-thicket-35541.herokuapp.com/
 
 
 ## Contribution
-You can contribute at https://github.com/jroller33/Express.js-Notes-App
+You can contribute [here](https://github.com/jroller33/Express.js-Notes-App).
 
 ## Tests
 I used [Insomnia](https://insomnia.rest/) for API testing.
 
 ## License
-This project is licensed under the MIT License. <br/>
-https://www.mit.edu/~amini/LICENSE.md
+This project is licensed under the [MIT License](https://www.mit.edu/~amini/LICENSE.md).
 
 ## Contact
-GitHub: https://github.com/jroller33 
+[GitHub](https://github.com/jroller33)
 
